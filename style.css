@@ -1,0 +1,85 @@
+.board {
+  position: relative;
+  margin: 0 auto 2em auto;
+  width: 340px;
+  height: 340px;
+}
+.secondBoard {
+  position: relative;
+  margin: 0 auto 2em auto;
+  width: 340px;
+  height: 340px;
+}
+.secondBoard div {
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: solid black 1px;
+  color: black;
+  overflow: hidden;
+  font-size: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 6px 6px 5px -1px darkslategray;
+}
+.secondBoard div:hover {
+  background-color: #808080;
+}
+.board div {
+  display: inline-block;
+  /*position: relative;*/
+  width: 30px;
+  height: 30px;
+  border: solid black 1px;
+  color: black;
+  overflow: hidden;
+  font-size: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 6px 6px 5px -1px darkslategray;
+}
+#ship {
+  font-size: 15px;
+  width: 5%
+}
+.shipLocation {
+  background-color: lightslategray;
+  width: 30px;
+  height: 30px;
+  font-size: 10px;
+  color: white;
+}
+.hit {
+  background-color: #cc3300;
+}
+.miss {
+  background-color: #0066ff;
+}
+.columnOne {
+  display: inline-block;
+  vertical-align: top;
+  width: 15%;
+  padding-bottom: 20px;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+.columnTwo {
+  display: inline-block;
+  vertical-align: top;
+  width: 35%;
+  border: 2px solid black;
+  background-color: #00BFFF;
+}
+.columnThree {
+  display: inline-block;
+  vertical-align: top;
+  width: 35%;
+  border: 2px solid black;
+  background-color: #00BFFF;
+}
+.stats {
+  width: 15%;
+  border: 2px solid black;
+  background-color: lightgray;
+}
