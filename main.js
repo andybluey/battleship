@@ -107,6 +107,8 @@ var draggable = function() {
             scoreBoard();
           }
         } else if ($(this) !== ".board div") {
+          // $(this).droppable( "option", revert, "invalid" );
+          // $(this).draggable({ revert: "invalid" });
           alert("This isn't on the grid");
           reset();
         }
