@@ -233,10 +233,13 @@ var reset = function() {
   $(".board").empty();
   $(".secondBoard div").empty();
   $(".secondBoard").empty();
+  $(".sidePanel").empty();
   hitCount = 0;
   missCount = 0;
   totalCount = 0;
   clickCount = 0;
+  opponentTotalShipLength = 0;
+  playerOneShipLength = 0;
   createGrid();
   createFleet();
   statistics();
