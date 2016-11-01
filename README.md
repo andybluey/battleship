@@ -5,6 +5,7 @@ This is a side project I started for WDi 16 (which I spent most of my time for o
 The drag and drop functionality works with the player at initial setup. I used ES6 to run through letters and set up the grid (not heroku friendly).
 
 ## How to view app
+- Demo: https://andybluey.github.io/battleship/
 - Clone / fork my repo: https://github.com/andybluey/battleship
 
 ## Languages Used:

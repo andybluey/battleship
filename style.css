@@ -1,15 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+  min-height: 100%;
+}
+
+nav {
+  background: #E85D75;
+  color: ghostwhite;
+  height: 80px;
+  line-height: 80px;
+  padding-left: 30px;
+  position: fixed;
+  top: 0;
+  left: 0.55%;
+  width: 98.9%;
+}
+
+.heading {
+  position: relative;
+  background-color: #E85D75;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+h1, .rules{
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  left: 0.55%;
+  width: 98.9%;
+  bottom: 0;
+  padding: 1rem;
+  background-color: #61707D;
+  text-align: center;
+}
+
 .board {
   position: relative;
   margin: 0 auto 2em auto;
-  width: 340px;
+  width: 395px;
   height: 340px;
 }
+
 .secondBoard {
   position: relative;
   margin: 0 auto 2em auto;
-  width: 340px;
+  width: 395px;
   height: 340px;
 }
+
 .secondBoard div {
   display: inline-block;
   position: relative;
@@ -23,9 +68,11 @@
   box-sizing: border-box;
   box-shadow: 6px 6px 5px -1px darkslategray;
 }
+
 .secondBoard div:hover {
   background-color: #808080;
 }
+
 .board div {
   display: inline-block;
   /*position: relative;*/
@@ -39,31 +86,37 @@
   box-sizing: border-box;
   box-shadow: 6px 6px 5px -1px darkslategray;
 }
+
 #ship {
   font-size: 15px;
   width: 5%
 }
+
 .shipLocation {
-  background-color: lightslategray;
+  background-color: #61707D;
   width: 30px;
   height: 30px;
   font-size: 10px;
   color: white;
 }
+
 .hit {
-  background-color: #cc3300;
+  background-color: #E85D75;
 }
+
 .miss {
-  background-color: #0066ff;
+  background-color: #9D69A3;
 }
+
 .columnOne {
   display: inline-block;
   vertical-align: top;
   width: 15%;
   padding-bottom: 20px;
   border: 2px solid black;
-  background-color: lightgray;
+  background-color: #F5FBEF;
 }
+
 .columnTwo {
   display: inline-block;
   vertical-align: top;
@@ -71,6 +124,7 @@
   border: 2px solid black;
   background-color: #00BFFF;
 }
+
 .columnThree {
   display: inline-block;
   vertical-align: top;
@@ -78,8 +132,11 @@
   border: 2px solid black;
   background-color: #00BFFF;
 }
+
 .stats {
   width: 15%;
   border: 2px solid black;
-  background-color: lightgray;
+  background-color: #F5FBEF;
+  margin-left: auto;
+  margin-right: auto;
 }

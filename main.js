@@ -62,7 +62,7 @@ var fleet = [{
 
 var createFleet = function() {
   // function to create fleet
-  $(".sidePanel").append('<div id=ship><br><em>Ships:</em></div>');
+  $(".columnOne").append('<div id=ship><em>Drag Ships:</em></div>');
 
   shipNo = fleet.length;
 
@@ -203,12 +203,12 @@ var statistics = function() {
   $(".stats").html("Shots fired: " + totalCount + "<br>" +
     "Hits: " + hitCount + "<br>" +
     "Misses: " + missCount + "<br>" +
-    "Opponent Ships Left: " + (opponentTotalShipLength));
+    "Opp Ships Left: " + (opponentTotalShipLength));
 };
 statistics();
 
 var scoreBoard = function() {
-  $(".sidePanel").append("Score:" + "<br>" + "Player: " + playerOneScore + "<br>" +
+  $(".columnOne").append("Score:" + "<br>" + "Player: " + playerOneScore + "<br>" +
     "Computer: " + computerScore + "<br>");
 };
 
@@ -235,7 +235,7 @@ var reset = function() {
   $(".board").empty();
   $(".secondBoard div").empty();
   $(".secondBoard").empty();
-  $(".sidePanel").empty();
+  $(".columnOne").empty();
   hitCount = 0;
   missCount = 0;
   totalCount = 0;
